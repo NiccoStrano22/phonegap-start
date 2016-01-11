@@ -34,8 +34,13 @@
             <h1>TONIGHT</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Caricamento impostazioni</p>
-                <p class="event received">Tonight egrave; pronta</p>
-            </div>
+                <p class="event received">Tonight è pronta</p>
+            <form method="post" action="" >
+	    	NOME: <input type="Text" name="nome" />
+		PASSWORD: <input type="Password" name="password" />
+		<input type="submit" name="Invio" value="Invio" />
+	    </form>
+	    </div>
         </div>
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
